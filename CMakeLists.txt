@@ -42,4 +42,6 @@ include_directories(
 add_executable(person_move src/person_controller.cpp)
 target_link_libraries(person_move ${catkin_LIBRARIES})
 
-
+# A node for control people in the warehouse map
+add_executable(worker_move src/worker_controller.cpp)
+target_link_libraries(worker_move ${catkin_LIBRARIES})

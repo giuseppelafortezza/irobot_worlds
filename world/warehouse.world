@@ -337,5 +337,78 @@
             <uri>model://shelving_long</uri>
             <pose>12.7 15.9 0 0 0 1.57079</pose>
         </include>
+        
+        
+        <!--People-->
+        <include>
+            <uri>model://person_standing</uri>
+            <pose>-10 -7.5 0 0 0 3.14159</pose>
+        </include>
+        <include>
+            <uri>model://person_standing</uri>
+            <pose>-2.5 -7.45 0 0 0 2.35</pose>
+        </include>
+        <include>
+            <uri>model://person_standing</uri>
+            <pose>7.4 -2.5 0 0 0 -2.65</pose>
+        </include>
+        <include>
+            <uri>model://person_standing</uri>
+            <pose>-4.7 5 0 0 0 -2.65</pose>
+        </include>
+        <include>
+            <uri>model://person_standing</uri>
+            <pose>-1.36 2.07 0 0 0 2.32</pose>
+        </include>
+        <include>
+            <uri>model://person_standing</uri>
+            <pose>-9.46 -10.84 0 0 0 1</pose>
+        </include>
+        <include>
+            <uri>model://person_standing</uri>
+            <pose>-12 4 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://person_standing</uri>
+            <pose>-0.5 12 0 0 0 3.14159</pose>
+        </include>
+        <include>
+            <uri>model://person_standing</uri>
+            <pose>-0.5 13 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://person_standing</uri>
+            <pose>12 14.5 0 0 0 3.14159</pose>
+        </include>
+        
+        <include>
+            <uri>model://person_walking</uri>
+            <pose>-13 8.55 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://person_walking</uri>
+            <pose>3 15 0 0 0 1.57079</pose>
+        </include>
+        <include>
+            <uri>model://person_walking</uri>
+            <pose>9 10 0 0 0 0</pose>
+        </include>
+        
+        <!--Walking people-->
+        <include>
+            <uri>model://person_walking</uri>
+            <name>worker1</name>
+            <pose>-5 12 0 0 0 -1.57079</pose>
+        </include>
+        <include>
+            <uri>model://person_walking</uri>
+            <name>worker2</name>
+            <pose>-3 7 0 0 0 1.57079</pose>
+        </include>
+        <include>
+            <uri>model://person_walking</uri>
+            <name>worker3</name>
+            <pose>-6 1 0 0 0 0</pose>
+        </include>
   </world>
 </sdf>
