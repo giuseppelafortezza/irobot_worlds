@@ -1,0 +1,341 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <!-- An iRobot -->
+    <include>
+      <uri>model://iRobot</uri>
+      <pose>0 -15 0.05 0 0 1.57079</pose>
+    </include>
+    <!-- Warehouse -->
+    <include>
+      <uri>model://Warehouse</uri>
+      <name>Warehouse</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <!-- Furniture-->
+        <include>
+            <uri>model://office_desk</uri>
+            <pose>-14 3 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://warehouse_elevator</uri>
+            <pose>-2 -7 0 0 0 -0.83</pose>
+        </include>  
+        <include>
+            <uri>model://warehouse_elevator</uri>
+            <pose>7 -2 0 0 0 0.56</pose>
+        </include>
+        <include>
+            <uri>model://warehouse_elevator</uri>
+            <pose>-10 -7 0 0 0 0</pose>
+        </include> 
+        <include>
+            <uri>model://warehouse_elevator</uri>
+            <pose>9 -13 0 0 0 0</pose>
+        </include> 
+        <include>
+            <uri>model://warehouse_elevator</uri>
+            <pose>11 -13 0 0 0 0</pose>
+        </include> 
+        
+        <include>
+            <uri>model://pallet</uri>
+            <pose>11 -7 0 0 0 0</pose>
+        </include> 
+        <include>
+            <uri>model://pallet</uri>
+            <pose>9 -7 0 0 0 0</pose>
+        </include> 
+        <include>
+            <uri>model://pallet</uri>
+            <pose>11 -4.5 0 0 0 0</pose>
+        </include> 
+        <include>
+            <uri>model://pallet</uri>
+            <pose>9 -4.5 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://pallet</uri>
+            <pose>11 -2 0 0 0 0</pose>
+        </include> 
+        <include>
+            <uri>model://pallet</uri>
+            <pose>9 -2 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://pallet</uri>
+            <pose>1 9.4 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://pallet</uri>
+            <pose>-1 9.4 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://pallet</uri>
+            <pose>-3 9.4 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://pallet</uri>
+            <pose>2 -8.5 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://pallet</uri>
+            <pose>2 -6 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://pallet</uri>
+            <pose>2 -3 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://pallet</uri>
+            <pose>4 -8.5 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://pallet</uri>
+            <pose>4 -6 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://pallet</uri>
+            <pose>4 -3 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://shelving_long</uri>
+            <pose>-13 -12 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://shelving_long</uri>
+            <pose>-13 -3 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://shelving_long</uri>
+            <pose>-7.53 -8.6 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://shelving_long</uri>
+            <pose>-7.53 -4 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://shelving_long</uri>
+            <pose>-3.32 -4.22 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://shelving_long</uri>
+            <pose>-3.32 -8.76 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://shelving_long</uri>
+            <pose>-9 -12.7 0 0 0 1.57079</pose>
+        </include>
+        <include>
+            <uri>model://shelving_long</uri>
+            <pose>-4 -12.7 0 0 0 1.57079</pose>
+        </include>
+        <include>
+            <uri>model://shelving_long</uri>
+            <pose>6.7 -12.7 0 0 0 1.57079</pose>
+        </include>
+        <include>
+            <uri>model://shelving_long</uri>
+            <pose>4 1 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://shelving</uri>
+            <pose>-8 2 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://shelving</uri>
+            <pose>-7 8.47 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://fork_lift</uri>
+            <pose>8 5 0 0 0 0</pose>
+        </include> 
+        <include>
+            <uri>model://fork_lift</uri>
+            <pose>9.5 5 0 0 0 0</pose>
+        </include> 
+        <include>
+            <uri>model://fork_lift</uri>
+            <pose>11 5 0 0 0 0</pose>
+        </include> 
+        <include>
+            <uri>model://fork_lift</uri>
+            <pose>-7 6 0 0 0 0.45</pose>
+        </include> 
+        <include>
+            <uri>model://fork_lift</uri>
+            <pose>-1 4.5 0 0 0 -0.86</pose>
+        </include> 
+        <include>
+            <uri>model://fork_lift</uri>
+            <pose>-7 -10.5 0 0 0 -2.12</pose>
+        </include> 
+        
+        <include>
+            <uri>model://square_box</uri>
+            <pose>1 10 0.64 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://square_box</uri>
+            <pose>1 8.8 0.64 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://square_box</uri>
+            <pose>-1 9 0.64 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://rectangular_box</uri>
+            <pose>-3 9.5 0.64 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://rectangular_box</uri>
+            <pose>11 7.15 0.5 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://rectangular_box</uri>
+            <pose>13 7.15 0.5 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://square_box</uri>
+            <pose>-10 5.5 0.5 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://cylinder_box</uri>
+            <pose>-10 14.5 0.64 1.57079 0 0</pose>
+        </include>
+        <include>
+            <uri>model://cylinder_box</uri>
+            <pose>-12 14.5 0.64 1.57079 0 0</pose>
+        </include>
+        
+        
+        <include>
+            <uri>model://rectangular_box</uri>
+            <pose>2 -8.5 0.64 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://rectangular_box</uri>
+            <pose>2 -6 1.14 1.57079 0 0</pose>
+        </include>
+        <include>
+            <uri>model://square_box</uri>
+            <pose>4 -7.9 0.64 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://square_box</uri>
+            <pose>4 -9.1 0.64 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://cylinder_box</uri>
+            <pose>2 -3 0.64 1.57079 0 0</pose>
+        </include>
+        <include>
+            <uri>model://cylinder_box</uri>
+            <pose>4 -6 0.64 1.57079 0 0</pose>
+        </include>
+        <include>
+            <uri>model://rectangular_box</uri>
+            <pose>4 -3 0.64 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://square_box</uri>
+            <pose>9 -7.6 0.64 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://square_box</uri>
+            <pose>9 -6.4 0.64 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://cylinder_box</uri>
+            <pose>11 -7 0.64 1.57079 0 0</pose>
+        </include>
+        <include>
+            <uri>model://cylinder_box</uri>
+            <pose>9 -2 0.64 1.57079 0 0</pose>
+        </include>
+        <include>
+            <uri>model://rectangular_box</uri>
+            <pose>9 -4.5 1.14 1.57079 0 0</pose>
+        </include>
+        <include>
+            <uri>model://rectangular_box</uri>
+            <pose>11 -4.5 1.14 1.57079 0 0</pose>
+        </include>
+        
+        <!--  Camera 1-->
+        <include>
+            <uri>model://shelving</uri>
+            <pose>5.58 13.57 0 0 0 0</pose>
+        </include>
+        
+        <!-- Camera 2-->
+        <include>
+            <uri>model://office_desk</uri>
+            <pose>1.8 12.6 0 0 0 3.14159</pose>
+        </include>
+        
+        <!-- Camera 3-->
+        <include>
+            <uri>model://office_desk</uri>
+            <pose>1.8 12.6 0 0 0 3.14159</pose>
+        </include>
+        
+        <!-- Camera 3-->
+        <include>
+            <uri>model://pallet</uri>
+            <pose>-12 14.55 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://pallet</uri>
+            <pose>-10 14.55 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://pallet</uri>
+            <pose>-10 5.5 0 0 0 -1.57079</pose>
+        </include>
+        <include>
+            <uri>model://shelving_long</uri>
+            <pose>-4.5 15.75 0 0 0 1.57079</pose>
+        </include>
+        <include>
+            <uri>model://shelving</uri>
+            <pose>-8.5 9 0 0 0 0</pose>
+        </include>
+        
+        
+        <!-- Camera 3-->
+        <include>
+            <uri>model://pallet</uri>
+            <pose>13 7.2 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://pallet</uri>
+            <pose>11 7.2 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://shelving_long</uri>
+            <pose>7 12 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://shelving_long</uri>
+            <pose>7 8 0 0 0 0</pose>
+        </include>
+        <include>
+            <uri>model://shelving_long</uri>
+            <pose>12.7 15.9 0 0 0 1.57079</pose>
+        </include>
+  </world>
+</sdf>
