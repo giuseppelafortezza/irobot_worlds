@@ -6,6 +6,9 @@ Some custom worlds for iRobot Create 2.
 Prerequisites
 ---
 * [irobotcreate2]
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(rospack find irobotcreate)
+export GAZEBO_RESOURCE_PATH=$GAZEBO_RESOURCE_PATH:$(rospack find irobotcreate)
+
 
 Compiling
 ---
@@ -15,8 +18,8 @@ To simulate the robot in Gazebo you first have to add this lines to your bashrc:
 
 ```
 source /usr/share/gazebo/setup.sh
-export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(rospack find irobot_world)
-export GAZEBO_RESOURCE_PATH=$GAZEBO_RESOURCE_PATH:$(rospack find irobot_world)
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(rospack find irobot_worlds)/models
+export GAZEBO_RESOURCE_PATH=$GAZEBO_RESOURCE_PATH:$(rospack find irobot_worlds)/models
 ```
 
 Usage

@@ -201,11 +201,11 @@
         </include>
         <include>
             <uri>model://rectangular_box</uri>
-            <pose>11 7.15 0.5 0 0 0</pose>
+            <pose>11 7.15 0.64 0 0 0</pose>
         </include>
         <include>
             <uri>model://rectangular_box</uri>
-            <pose>13 7.15 0.5 0 0 0</pose>
+            <pose>13 7.15 0.64 0 0 0</pose>
         </include>
         <include>
             <uri>model://square_box</uri>
