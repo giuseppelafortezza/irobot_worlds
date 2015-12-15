@@ -8,7 +8,7 @@
     <arg name="headless" default="false"/>
     <arg name="debug" default="false"/>
     <arg name="verbose" default="false"/>
-    <arg name="world_name" default="world/empty.world"/>
+    <arg name="world_name" default="$(find irobot_worlds)/world/empty.world"/>
 
     <group if="$(arg use_sim_time)">
     <param name="/use_sim_time" value="true" />

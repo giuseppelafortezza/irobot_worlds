@@ -8,6 +8,6 @@
         <arg name="headless" default="false"/>
         <arg name="debug" default="false"/>
         <arg name="verbose" default="false"/>
-        <arg name="world_name" default="world/cp_with_furniture.world"/>
+        <arg name="world_name" default="$(find irobot_worlds)/world/cp_with_furniture.world"/>
     </include>
 </launch>

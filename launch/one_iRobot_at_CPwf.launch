@@ -8,7 +8,7 @@
         <arg name="headless" default="false"/>
         <arg name="debug" default="false"/>
         <arg name="verbose" default="false"/>
-        <arg name="world_name" default="world/one_iRobot_at_CPwf.world"/>
+        <arg name="world_name" default="$(find irobot_worlds)/world/one_iRobot_at_CPwf.world"/>
     </include>
         
     <node name="laser_static_tf" pkg="tf" type="static_transform_publisher" args="0 0 0.11 0 0 0 /iRobot/base_link /iRobot/hokuyo_laser_link 1000" />
