@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="bookshelf_1_5m">
+    <static>true</static>
+    <link name='defaultModel_0::custom_0'>
+      <pose>0 0 1 1.57 0 0</pose>
+      <gravity>1</gravity>
+      <self_collide>0</self_collide>
+      <kinematic>0</kinematic>
+      <visual name='custom_0_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>/home/peppe/projects/irobot_ws/src/irobot_worlds/models/bookshelf_1_5m/scaffale.dae</uri>
+            <scale>1.5 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Wood</name>
+          </script>
+        </material>
+      </visual>
+      <collision name='defaultModel_0::custom_0_collision'>
+        <geometry>
+          <mesh>
+            <uri>/home/peppe/projects/irobot_ws/src/irobot_worlds/models/bookshelf_1_5m/scaffale.dae</uri>
+            <scale>1.5 1 1</scale>
+          </mesh>
+        </geometry>
+        <pose>0 0 0 0 0 0</pose>
+      </collision>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,212 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <!-- Centro Piaggio -->
+    <include>
+      <uri>model://CentroPiaggioReal</uri>
+      <name>CentroPiaggio</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <!-- Furniture-->
+        <!-- LAB -->
+        <include>
+            <uri>model://real_table</uri>
+            <pose>5.73 16.24 0 0 0 1.57</pose>
+        </include>   
+        <include>
+            <uri>model://dresser</uri>
+            <pose>5.73 15.34 0.5 0 0 1.57</pose>
+        </include>   
+        <include>
+            <uri>model://real_table</uri>
+            <pose>5.73 14.44 0 0 0 1.57</pose>
+        </include>   
+        <include>
+            <uri>model://real_table</uri>
+            <pose>5.73 13.04 0 0 0 1.57</pose>
+        </include> 
+        <include>
+            <uri>model://dresser</uri>
+            <pose>5.73 12.14 0.5 0 0 1.57</pose>
+        </include>  
+        <include>
+            <uri>model://real_table</uri>
+            <pose>5.73 11.24 0 0 0 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://real_table</uri>
+            <pose>6.63 16.24 0 0 0 1.57</pose>
+        </include>   
+        <include>
+            <uri>model://dresser</uri>
+            <pose>6.63 15.34 0.5 0 0 1.57</pose>
+        </include>  
+        <include>
+            <uri>model://real_table</uri>
+            <pose>6.63 14.44 0 0 0 1.57</pose>
+        </include>   
+        <include>
+            <uri>model://real_table</uri>
+            <pose>6.63 13.04 0 0 0 1.57</pose>
+        </include> 
+        <include>
+            <uri>model://dresser</uri>
+            <pose>6.63 12.14 0.5 0 0 1.57</pose>
+        </include>  
+        <include>
+            <uri>model://real_table</uri>
+            <pose>6.63 11.24 0 0 0 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://real_table</uri>
+            <pose>9.6 16.24 0 0 0 1.57</pose>
+        </include> 
+        <include>
+            <uri>model://dresser</uri>
+            <pose>9.6 15.34 0.5 0 0 1.57</pose>
+        </include>  
+        <include>
+            <uri>model://real_table</uri>
+            <pose>9.6 14.44 0 0 0 1.57</pose>
+        </include>   
+        <include>
+            <uri>model://real_table</uri>
+            <pose>9.6 13.04 0 0 0 1.57</pose>
+        </include> 
+        <include>
+            <uri>model://dresser</uri>
+            <pose>9.6 12.14 0.5 0 0 1.57</pose>
+        </include>  
+        <include>
+            <uri>model://real_table</uri>
+            <pose>9.6 11.24 0 0 0 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://real_table</uri>
+            <pose>10.5 16.24 0 0 0 1.57</pose>
+        </include>  
+        <include>
+            <uri>model://dresser</uri>
+            <pose>10.5 15.34 0.5 0 0 1.57</pose>
+        </include>  
+        <include>
+            <uri>model://real_table</uri>
+            <pose>10.5 14.44 0 0 0 1.57</pose>
+        </include>   
+        <include>
+            <uri>model://real_table</uri>
+            <pose>10.5 13.04 0 0 0 1.57</pose>
+        </include> 
+        <include>
+            <uri>model://dresser</uri>
+            <pose>10.5 12.14 0.5 0 0 1.57</pose>
+        </include>  
+        <include>
+            <uri>model://real_table</uri>
+            <pose>10.5 11.24 0 0 0 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>5.15 16.2 0 0 0 1.57</pose>
+        </include>
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>5.15 14.4 0 0 0 1.57</pose>
+        </include>
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>5.15 13 0 0 0 1.57</pose>
+        </include>
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>5.15 11.2 0 0 0 1.57</pose>
+        </include>
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>7.2 16.2 0 0 0 -1.57</pose>
+        </include>
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>7.2 14.4 0 0 0 -1.57</pose>
+        </include>
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>7.2 13 0 0 0 -1.57</pose>
+        </include>
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>7.2 11.2 0 0 0 -1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>9.02 16.2 0 0 0 1.57</pose>
+        </include>
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>9.02 14.4 0 0 0 1.57</pose>
+        </include>
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>9.02 13 0 0 0 1.57</pose>
+        </include>
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>9.02 11.2 0 0 0 1.57</pose>
+        </include>
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>11.07 16.2 0 0 0 -1.57</pose>
+        </include>
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>11.07 14.4 0 0 0 -1.57</pose>
+        </include>
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>11.07 13 0 0 0 -1.57</pose>
+        </include>
+        <include>
+            <uri>model://office_chair</uri>
+            <pose>11.07 11.2 0 0 0 -1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://bookshelf_1_5m</uri>
+            <pose>11.5 8.48 0 0 0 3.14159</pose>
+        </include>
+        <include>
+            <uri>model://bookshelf_1m</uri>
+            <pose>10.25 8.48 0 0 0 3.14159</pose>
+        </include>
+        <include>
+            <uri>model://bookshelf_1_5m</uri>
+            <pose>9 8.48 0 0 0 3.14159</pose>
+        </include>
+        <include>
+            <uri>model://bookshelf_1_5m</uri>
+            <pose>7.5 8.48 0 0 0 3.14159</pose>
+        </include>
+        
+        <include>
+            <uri>model://bookshelf_1m</uri>
+            <pose>4.17 16.5 0 0 0 1.57</pose>
+        </include>
+        <include>
+            <uri>model://bookshelf_1m</uri>
+            <pose>4.17 15.5 0 0 0 1.57</pose>
+        </include>
+  </world>
+</sdf>
