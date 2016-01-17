@@ -3098,10 +3098,10 @@
     <link name='Wall_93'>
       <pose frame=''>-3.14707 -1.72376 0 0 0 -1.5708</pose>
       <visual name='Wall_93_Visual_0'>
-        <pose frame=''>-4.81403 0 1.25 0 -0 0</pose>
+        <pose frame=''>-4.31403 0 1.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.541941 0.12 2.5</size>
+            <size>1.541941 0.12 2.5</size>
           </box>
         </geometry>
         <material>
@@ -3115,16 +3115,16 @@
       <collision name='Wall_93_Collision_0'>
         <geometry>
           <box>
-            <size>0.541941 0.12 2.5</size>
+            <size>1.541941 0.12 2.5</size>
           </box>
         </geometry>
-        <pose frame=''>-4.81403 0 1.25 0 -0 0</pose>
+        <pose frame=''>-4.31403 0 1.25 0 -0 0</pose>
       </collision>
       <visual name='Wall_93_Visual_1'>
-        <pose frame=''>-1.88723 0 1.25 0 -0 0</pose>
+        <pose frame=''>-1.38723 0 1.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>3.71165 0.12 2.5</size>
+            <size>2.71165 0.12 2.5</size>
           </box>
         </geometry>
         <material>
@@ -3138,10 +3138,10 @@
       <collision name='Wall_93_Collision_1'>
         <geometry>
           <box>
-            <size>3.71165 0.12 2.5</size>
+            <size>2.71165 0.12 2.5</size>
           </box>
         </geometry>
-        <pose frame=''>-1.88723 0 1.25 0 -0 0</pose>
+        <pose frame=''>-1.38723 0 1.25 0 -0 0</pose>
       </collision>
       <visual name='Wall_93_Visual_2'>
         <pose frame=''>1.40151 0 1.25 0 -0 0</pose>
@@ -3190,7 +3190,7 @@
         <pose frame=''>3.95972 0 1.25 0 -0 0</pose>
       </collision>
       <visual name='Wall_93_Visual_4'>
-        <pose frame=''>-4.14306 0 2.3 0 -0 0</pose>
+        <pose frame=''>-3.14306 0 2.3 0 -0 0</pose>
         <geometry>
           <box>
             <size>0.8 0.12 0.4</size>
@@ -3210,7 +3210,7 @@
             <size>0.8 0.12 0.4</size>
           </box>
         </geometry>
-        <pose frame=''>-4.14306 0 2.3 0 -0 0</pose>
+        <pose frame=''>-3.14306 0 2.3 0 -0 0</pose>
       </collision>
       <visual name='Wall_93_Visual_5'>
         <pose frame=''>0.368595 0 2.3 0 -0 0</pose>
