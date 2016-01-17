@@ -1,13 +1,7 @@
 
 irobot_worlds
 ===
-Some custom worlds for iRobot Create 2.
-
-Prerequisites
----
-* [irobotcreate2]
-export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(rospack find irobotcreate)
-export GAZEBO_RESOURCE_PATH=$GAZEBO_RESOURCE_PATH:$(rospack find irobotcreate)
+Some custom gazebo worlds.
 
 
 Compiling
@@ -25,34 +19,30 @@ export GAZEBO_RESOURCE_PATH=$GAZEBO_RESOURCE_PATH:$(rospack find irobot_worlds)/
 Usage
 ---
 ---
-```
-roslaunch irobot_worlds cp_wf_and_people.launch
-```
-to load a laboratory (Centro Piaggio) with forniture and people. 
 
 ```
 roslaunch irobot_worlds cp_with_furniture.launch
 ```
-to load a laboratory (Centro Piaggio) with forniture. 
+to load a laboratory only with forniture. 
+```
+roslaunch irobot_worlds cp_with_furniture_and_people.launch
+```
+to load a laboratory with forniture and people.
+---
 
 ```
-roslaunch irobot_worlds one_iRobot_at_CPwf.launch
+roslaunch irobot_worlds CentroPiaggio.launch
 ```
-to load a laboratory (Centro Piaggio) with forniture and one iRobot create.
+to load the Centro di Ricerca "E. Piaggio" with some forniture.
 
-```
-roslaunch irobot_worlds one_iRobot_at_CPwf_and_people.launch
-```
-to load a laboratory (Centro Piaggio) with forniture, people and one iRobot create.
 
 ---
 ```
 roslaunch irobot_worlds warehouse.launch
 ```
-to load a warehouse with forniture and one iRobot create. 
+to load a warehouse only with forniture. 
 
 ```
 roslaunch irobot_worlds warehouse_with_people.launch
 ```
-to load a warehouse with forniture, people and one iRobot create. 
-
+to load a warehouse with forniture, people and one iRobot create.
