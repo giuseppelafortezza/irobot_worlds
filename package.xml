@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <package>
-  <name>irobot_worlds</name>
+  <name>simulation_worlds</name>
   <version>0.0.1</version>
-  <description>The irobot_worlds package</description>
+  <description>The simulation worlds package for testing navigation algorithms</description>
 
-  <maintainer email="giuseppe.lafortezza@gmail.com">Giuseppe Lafortezza</maintainer>
+  <maintainer email="mirko.ferrati@gmail.com">Mirko Ferrati</maintainer>
 
-  <license>TODO</license>
+  <license>BSD</license>
 
-  <author email="giuseppe.lafortezza@gmail.com">Giuseppe Lafortezza</author> 
+  <author email="mirko.ferrati@gmail.com">Mirko Ferrati</author> 
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>geometry_msgs</build_depend>
